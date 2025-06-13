@@ -99,6 +99,6 @@ echo "The ${PROJECT} project has been initiated at:"
 echo "${PATH_PROJECT}"
 
 # -- Call Nix dev shell --
-# cd ${PATH_WP_THEME}
-# nix develop
+cd ${PATH_WP_THEME}
+nix develop
 
